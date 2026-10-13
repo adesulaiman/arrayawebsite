@@ -1,0 +1,264 @@
+{
+  "meta": {
+    "homeTitle": "ARRAYA — Solusi Software & IT untuk Bisnis dan Pemerintah",
+    "homeDesc": "PT Arraya Mitra Informatika (ARRAYA) — perusahaan software & solusi IT Indonesia. Sistem bisnis, platform AI, dan infrastruktur data untuk perusahaan dan pemerintah.",
+    "jewelryTitle": "Jewelry Management — Sistem Toko Emas & Perhiasan | ARRAYA",
+    "jewelryDesc": "Sistem manajemen toko emas & perhiasan end-to-end: POS dengan login PIN, master stock puluhan ribu SKU, buyback, reparasi, DP, membership, dan dashboard lengkap.",
+    "logeTitle": "Loge Knowledge AI — Enterprise Knowledge Search | ARRAYA",
+    "logeDesc": "Cari seluruh pengetahuan privat tim Anda. Setiap jawaban menampilkan sumbernya. Konektor Confluence, SharePoint, Google Drive, Jira, Slack, dan lainnya."
+  },
+  "nav": {
+    "home": "Beranda",
+    "about": "Tentang",
+    "products": "Produk",
+    "projects": "Proyek",
+    "services": "Layanan",
+    "contact": "Kontak",
+    "cta": "Hubungi Kami",
+    "openMenu": "Buka menu navigasi",
+    "closeMenu": "Tutup menu navigasi"
+  },
+  "hero": {
+    "badge": "Software & IT Solutions — Indonesia",
+    "line1": "Solusi Digital yang",
+    "line2": "Menghubungkan",
+    "line3": "Bisnis dan Teknologi",
+    "sub": "Arraya Mitra Informatika membangun sistem bisnis, platform AI, dan infrastruktur data untuk perusahaan dan pemerintah di Indonesia.",
+    "ctaPrimary": "Lihat Produk",
+    "ctaSecondary": "Hubungi Kami",
+    "cards": [
+      { "title": "Jewelry Management", "desc": "POS & stok emas real-time", "stat": "36K+ SKU aktif" },
+      { "title": "Loge Knowledge AI", "desc": "Jawaban dengan sitasi sumber", "stat": "Enterprise RAG" },
+      { "title": "Data Warehouse", "desc": "ETL & analitik terpusat", "stat": "BI-ready" }
+    ]
+  },
+  "stats": {
+    "items": [
+      { "value": 25, "suffix": "+", "label": "Custom Software Solutions" },
+      { "value": 2, "suffix": "", "label": "Flagship Products" },
+      { "value": 15, "suffix": "+", "label": "Government & Commerce Clients" },
+      { "value": 100, "suffix": "%", "label": "Enterprise-grade Architecture" }
+    ]
+  },
+  "about": {
+    "badge": "Tentang Kami",
+    "title": "Mitra Teknologi yang Tumbuh Bersama Bisnis Anda",
+    "story1": "PT Arraya Mitra Informatika (ARRAYA) adalah perusahaan software dan solusi IT yang berdiri pada [ISI TAHUN BERDIRI] dan berkantor di [ISI KOTA]. Kami membantu perusahaan dan institusi pemerintah merancang, membangun, dan merawat sistem digital yang menjadi tulang punggung operasional mereka.",
+    "story2": "Dari sistem manajemen toko emas yang memproses puluhan ribu SKU hingga platform AI yang menjelajah pengetahuan internal perusahaan, setiap solusi kami dibangun dengan standar enterprise: aman, scalable, dan mudah dirawat.",
+    "visionTitle": "Visi",
+    "vision": "Menjadi mitra transformasi digital paling tepercaya bagi perusahaan dan pemerintah di Indonesia.",
+    "missionTitle": "Misi",
+    "mission": "Menghadirkan solusi teknologi yang aman, scalable, dan berdampak nyata — dari konsultasi, pembangunan, hingga pemeliharaan jangka panjang.",
+    "valuesTitle": "Nilai Inti Kami",
+    "values": [
+      { "icon": "shield", "title": "Integrity", "desc": "Transparan dan jujur dalam setiap komitmen, estimasi, dan pelaporan." },
+      { "icon": "lightbulb", "title": "Innovation", "desc": "Mengadopsi teknologi terkini — AI, microservices, dan cloud — secara pragmatis." },
+      { "icon": "badge", "title": "Reliability", "desc": "Sistem yang stabil, teruji, dan siap produksi dengan standar enterprise." },
+      { "icon": "handshake", "title": "Partnership", "desc": "Tumbuh bersama klien melalui dukungan jangka panjang yang responsif." }
+    ],
+    "imageAlt": "Tim engineering ARRAYA sedang bekerja"
+  },
+  "products": {
+    "badge": "Produk Unggulan",
+    "title": "Dua Platform Andalan Kami",
+    "sub": "Produk yang kami bangun, kami rawat, dan kami kembangkan bersama para penggunanya.",
+    "detail": "Lihat Detail",
+    "items": [
+      {
+        "id": "jewelry",
+        "name": "Jewelry Management",
+        "category": "Retail Emas & Perhiasan",
+        "tagline": "Sistem manajemen toko emas & perhiasan end-to-end.",
+        "desc": "Dari kasir hingga laporan tahunan — satu sistem yang memahami cara toko emas bekerja: gram, kadar, buyback, dan reparasi.",
+        "features": [
+          "POS / kasir dengan login PIN",
+          "Master stock puluhan ribu SKU",
+          "Sesi kas harian & closing",
+          "Buyback (pelacakan gram & nilai)",
+          "Transaksi reparasi / servis",
+          "Pelacakan DP / uang muka",
+          "Manajemen pelanggan & membership",
+          "Integrasi WhatsApp",
+          "Dukungan printer struk",
+          "Dashboard harian, bulanan & tahunan",
+          "Akses berbasis peran (role-based)"
+        ],
+        "imageAlt": "Dashboard back-office Jewelry Management"
+      },
+      {
+        "id": "loge",
+        "name": "Loge Knowledge AI",
+        "category": "Enterprise AI",
+        "tagline": "Cari seluruh pengetahuan privat tim Anda. Setiap jawaban menampilkan sumbernya.",
+        "desc": "Platform knowledge search enterprise yang menghubungkan seluruh dokumen dan aplikasi tim Anda ke dalam satu asisten AI yang tepercaya.",
+        "features": [
+          "Pencarian pengetahuan privat dengan sitasi sumber",
+          "Konektor: Confluence, SharePoint, Google Drive, Jira, Slack",
+          "Konektor: Salesforce, HubSpot, GitHub, Notion, web & upload file",
+          "Dukungan banyak language model (multi-LLM)",
+          "AI agents",
+          "MCP actions",
+          "OpenAPI actions",
+          "Document sets",
+          "Code interpreter",
+          "Voice",
+          "Image generation",
+          "Admin panel"
+        ],
+        "imageAlt": "Antarmuka Loge Knowledge AI"
+      }
+    ]
+  },
+  "projects": {
+    "badge": "Portofolio",
+    "title": "Proyek yang Telah Kami Selesaikan",
+    "sub": "Sebagian hasil kerja kami untuk sektor komersial dan pemerintahan.",
+    "caseStudy": "Case Study",
+    "modal": { "challenge": "Tantangan", "solution": "Solusi", "result": "Hasil", "close": "Tutup" },
+    "items": [
+      {
+        "id": "kusuma",
+        "title": "Kusuma E-Commerce",
+        "category": "E-Commerce / Beauty",
+        "desc": "Toko online lengkap untuk brand kecantikan Kusuma Kosmetika — storefront bilingual (ID/EN), harga IDR, fitur promo, dan store locator.",
+        "chips": ["Bilingual Storefront", "IDR Pricing", "Promo Engine", "Store Locator"],
+        "challenge": "[PLACEHOLDER] Jelaskan tantangan yang dihadapi klien sebelum proyek dimulai — misalnya proses penjualan manual atau keterbatasan kanal digital.",
+        "solution": "[PLACEHOLDER] Jelaskan solusi yang dibangun ARRAYA — arsitektur, fitur utama, dan pendekatan implementasi.",
+        "result": "[PLACEHOLDER] Jelaskan hasil terukur yang dicapai — misalnya peningkatan penjualan online atau efisiensi operasional.",
+        "imageAlt": "Tampilan storefront Kusuma Kosmetika"
+      },
+      {
+        "id": "sampang",
+        "title": "Sampang Governance System",
+        "category": "Government",
+        "desc": "Sistem manajemen pemerintahan untuk Kabupaten Sampang — alur kerja administrasi publik, transparansi, dan layanan digital bagi masyarakat.",
+        "chips": ["Government Workflow", "Digital Service", "Transparency", "RBAC"],
+        "challenge": "[PLACEHOLDER] Jelaskan tantangan yang dihadapi instansi sebelum sistem dibangun.",
+        "solution": "[PLACEHOLDER] Jelaskan solusi yang dibangun ARRAYA — modul, integrasi, dan pendekatan keamanan.",
+        "result": "[PLACEHOLDER] Jelaskan hasil terukur yang dicapai — misalnya percepatan layanan atau peningkatan transparansi.",
+        "imageAlt": "Ilustrasi Sampang Governance System"
+      }
+    ]
+  },
+  "services": {
+    "badge": "Layanan",
+    "title": "Kapabilitas Kami",
+    "sub": "Enam bidang keahlian inti untuk mendukung transformasi digital Anda.",
+    "items": [
+      { "icon": "pen", "title": "Electronic Signature (TTE)", "desc": "Penandatanganan dokumen digital yang aman — audit trail lengkap dan verifikasi dokumen." },
+      { "icon": "network", "title": "Microservice Management", "desc": "Perancangan arsitektur, API gateway, orkestrasi service, dan monitoring terpadu." },
+      { "icon": "database", "title": "Data Warehouse System", "desc": "Pipeline ETL, analitik terpusat, dan data model yang siap untuk BI." },
+      { "icon": "code", "title": "Custom Software Development", "desc": "Aplikasi web dan mobile yang dibangun sesuai proses bisnis Anda." },
+      { "icon": "brain", "title": "AI & Knowledge Solutions", "desc": "RAG, enterprise search, dan AI agents untuk pengetahuan internal." },
+      { "icon": "plug", "title": "System Integration & Consulting", "desc": "Menghubungkan sistem legacy, WhatsApp, payment, dan API pihak ketiga." }
+    ]
+  },
+  "why": {
+    "badge": "Kenapa ARRAYA",
+    "title": "Alasan Perusahaan Memilih Kami",
+    "sub": "Bukan sekadar vendor — kami adalah partner teknologi jangka panjang.",
+    "points": [
+      { "icon": "mappin", "title": "Keahlian Lokal", "desc": "Tim Indonesia dengan dukungan penuh Bahasa Indonesia." },
+      { "icon": "layers", "title": "Arsitektur Scalable", "desc": "Microservices yang tumbuh seiring bisnis Anda." },
+      { "icon": "shield", "title": "Security-First", "desc": "Keamanan dirancang sejak baris kode pertama." },
+      { "icon": "route", "title": "End-to-End Delivery", "desc": "Konsultasi, pembangunan, hingga pemeliharaan dalam satu mitra." },
+      { "icon": "badge", "title": "Referensi Terbukti", "desc": "Dipercaya klien pemerintah dan komersial." },
+      { "icon": "headphones", "title": "Support Responsif", "desc": "Tim support yang sigap saat Anda membutuhkan." }
+    ]
+  },
+  "process": {
+    "badge": "Cara Kami Bekerja",
+    "title": "Proses yang Jelas, Hasil yang Terukur",
+    "sub": "Lima tahap yang kami jalani bersama setiap klien.",
+    "steps": [
+      { "title": "Discovery", "desc": "Memahami kebutuhan, proses bisnis, dan target hasil." },
+      { "title": "Design", "desc": "Arsitektur sistem dan desain UI/UX yang terukur." },
+      { "title": "Development", "desc": "Pengembangan agile dengan demo berkala." },
+      { "title": "Deployment", "desc": "Rilis aman dengan pengujian menyeluruh." },
+      { "title": "Support & Evolution", "desc": "Monitoring, maintenance, dan pengembangan lanjutan." }
+    ]
+  },
+  "tech": {
+    "badge": "Teknologi",
+    "title": "Stack yang Kami Kuasai",
+    "sub": "Teknologi modern yang teruji untuk beban enterprise.",
+    "items": ["Next.js", "React", "Flutter", "Node.js", "Python", "PostgreSQL", "Docker", "Kubernetes", "REST / OpenAPI", "MCP"]
+  },
+  "ctaBand": {
+    "title": "Siap mendigitalisasi bisnis Anda?",
+    "sub": "Ceritakan kebutuhan Anda — tim kami akan membantu merancang solusi yang tepat.",
+    "button": "Jadwalkan Konsultasi"
+  },
+  "contact": {
+    "badge": "Kontak",
+    "title": "Mari Bicara Tentang Proyek Anda",
+    "sub": "Isi formulir atau hubungi kami langsung — kami membalas dengan cepat.",
+    "form": {
+      "name": "Nama Lengkap",
+      "email": "Email",
+      "phone": "Telepon / WhatsApp",
+      "company": "Perusahaan",
+      "message": "Pesan",
+      "namePh": "Nama Anda",
+      "emailPh": "nama@perusahaan.co.id",
+      "phonePh": "08xx-xxxx-xxxx",
+      "companyPh": "Nama perusahaan (opsional)",
+      "messagePh": "Ceritakan kebutuhan atau proyek Anda...",
+      "submit": "Kirim Pesan",
+      "sending": "Mengirim...",
+      "success": "Pesan terkirim! Kami akan segera menghubungi Anda.",
+      "error": "Gagal mengirim pesan. Silakan coba lagi.",
+      "required": "Wajib diisi",
+      "invalidEmail": "Format email tidak valid",
+      "minMessage": "Pesan minimal 10 karakter"
+    },
+    "info": {
+      "title": "Informasi Perusahaan",
+      "addressLabel": "Alamat",
+      "address": "[ISI ALAMAT KANTOR]",
+      "emailLabel": "Email",
+      "email": "[ISI EMAIL PERUSAHAAN]",
+      "phoneLabel": "Telepon",
+      "phone": "[ISI NOMOR TELEPON]",
+      "waButton": "Chat via WhatsApp",
+      "waLink": "https://wa.me/6200000000000"
+    },
+    "map": { "title": "Lokasi Kami", "note": "[PLACEHOLDER] Sematkan Google Maps di sini" }
+  },
+  "footer": {
+    "desc": "Perusahaan software & solusi IT Indonesia — membangun sistem bisnis, platform AI, dan infrastruktur data.",
+    "navTitle": "Navigasi",
+    "productsTitle": "Produk",
+    "contactTitle": "Kontak",
+    "rights": "© 2026 PT Arraya Mitra Informatika. All rights reserved.",
+    "logoAlt": "Logo ARRAYA"
+  },
+  "productPages": {
+    "back": "Kembali ke Beranda",
+    "featuresTitle": "Fitur Lengkap",
+    "highlightsTitle": "Sekilas Produk",
+    "ctaTitle": "Tertarik dengan produk ini?",
+    "ctaSub": "Jadwalkan demo bersama tim kami dan lihat langsung cara kerjanya.",
+    "ctaButton": "Diskusikan Kebutuhan Anda",
+    "jewelry": {
+      "category": "Flagship Product — Retail Emas & Perhiasan",
+      "heroNote": "Dashboard back-office Jewelry Management",
+      "desc": "Jewelry Management adalah sistem end-to-end untuk toko emas dan perhiasan: dari transaksi kasir dengan login PIN, master stock berskala puluhan ribu SKU, sesi kas harian, buyback, reparasi, hingga laporan harian, bulanan, dan tahunan. Dibangun khusus untuk cara kerja industri emas — gram, kadar, dan nilai selalu terlacak.",
+      "highlights": [
+        { "value": "36K+", "label": "SKU yang mampu dikelola" },
+        { "value": "11+", "label": "Modul terintegrasi" },
+        { "value": "Real-time", "label": "Dashboard operasional" }
+      ]
+    },
+    "loge": {
+      "category": "Flagship Product — Enterprise AI",
+      "heroNote": "Antarmuka Loge Knowledge AI",
+      "desc": "Loge Knowledge AI menyatukan pengetahuan privat perusahaan Anda — dokumen, wiki, tiket, hingga kode — ke dalam satu asisten AI. Setiap jawaban selalu menampilkan sumbernya, sehingga tim Anda dapat mempercayai dan memverifikasi setiap informasi.",
+      "highlights": [
+        { "value": "12+", "label": "Konektor sumber data" },
+        { "value": "Multi-LLM", "label": "Dukungan language model" },
+        { "value": "100%", "label": "Jawaban dengan sitasi sumber" }
+      ]
+    }
+  }
+}

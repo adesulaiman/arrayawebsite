@@ -1,0 +1,204 @@
+{
+  "brand_identity": {
+    "company_name": "PT Arraya Mitra Informatika",
+    "brand_mark": "ARRAYA",
+    "tagline": "PARTNER WAMYS",
+    "archetype": "Swiss & Enterprise Precision Hybrid",
+    "emotional_tone": "Clean, Trustworthy, Cutting-edge Enterprise, Polish & Strategic Depth",
+    "visual_motif": "Connected nodes / molecular network SVG geometry + subtle glowing interactive dots"
+  },
+  "typography": {
+    "heading_font": "Plus Jakarta Sans, Poppins, sans-serif",
+    "body_font": "Inter, sans-serif",
+    "headline_rules": {
+      "H1": "text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-[#1F3A5F]",
+      "H2": "text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-[#1F3A5F]",
+      "H3": "text-xl sm:text-2xl font-semibold text-[#1F3A5F]",
+      "Subtitle": "text-lg sm:text-xl text-slate-600 leading-relaxed font-normal"
+    },
+    "font_sources": "Import Google Fonts: 'Plus Jakarta Sans:wght@400;500;600;700;800', 'Poppins:wght@600;700;800', and 'Inter:wght@300;400;500;600;700' in index.html or index.css"
+  },
+  "colors": {
+    "primary_blue": "#1E88E5",
+    "light_cyan": "#4FC3F7",
+    "primary_gradient": "bg-gradient-to-r from-[#1E88E5] to-[#4FC3F7]",
+    "accent_red": "#D32F2F",
+    "accent_red_hover": "#B71C1C",
+    "navy_heading_and_dark": "#1F3A5F",
+    "navy_dark_bg": "#0D1B2A",
+    "background_light": "#FFFFFF",
+    "background_alt": "#F5F9FF",
+    "body_text": "#475569",
+    "card_border": "rgba(30, 136, 229, 0.15)",
+    "glass_bg": "rgba(255, 255, 255, 0.75)",
+    "dark_glass_bg": "rgba(15, 23, 42, 0.85)",
+    "usage_rules": {
+      "red_accent": "CRITICAL: Reserved ONLY for CTA buttons (e.g. main contact CTA, red badge in navbar), highlighted keywords/underlines, and small badges. NEVER use red as a large section background.",
+      "navy": "Used for main section headings, dark footer background, and deep structural elements.",
+      "gradient": "Use 135deg gradient #1E88E5 -> #4FC3F7 for hero badge highlights, secondary CTA buttons, stats counters background, and border beam lines."
+    }
+  },
+  "layout_and_spacing": {
+    "spacing_scale": "Use generous 2-3x padding: sections py-20 lg:py-32, container px-6 sm:px-12 lg:px-16 max-w-7xl mx-auto",
+    "card_radius": "rounded-2xl (16px to 20px)",
+    "card_shadow": "shadow-[0_10px_30px_rgba(30,136,229,0.06)] hover:shadow-[0_20px_40px_rgba(30,136,229,0.12)] transition-all duration-300",
+    "hero_overlay": "Light, subtle gradient overlay over interactive SVG canvas so nodes and text contrast cleanly without dark murky standard overlays."
+  },
+  "motion_and_interactivity": {
+    "smooth_scroll": "Lenis smooth momentum scrolling initialized globally on main container",
+    "hero_reveal": "Masked line-by-line staggered entrance reveal using Framer Motion (initial y:40, opacity:0 -> animate y:0, opacity:1)",
+    "molecular_bg": "Animated SVG Canvas/Node component with floating node points, connecting laser lines, mouse repulsion/proximity micro-effect",
+    "marquee": "Slow editorial marquee band ('react-fast-marquee' or CSS continuous marquee) showing key clients, tech frameworks, and partner badges with low-contrast neutral palette",
+    "scroll_reveal": "Framer Motion 'whileInView' viewport reveal with once:true, margin:'-100px', duration:0.6s",
+    "hover_effects": "Micro-tilt on card hovers (transform translate-y-[-6px] + glow border), scale up CTA buttons on hover (hover:scale-[1.02] active:scale-[0.98])"
+  },
+  "pages_and_routes": {
+    "routes": [
+      {
+        "path": "/",
+        "type": "Single-page landing with smooth scroll anchors (#about, #products, #portfolio, #services, #why-us, #process, #contact)"
+      },
+      {
+        "path": "/products/jewelry-management",
+        "type": "Dedicated product detail page for Jewelry Management System (POS, Gold Rate Live Ticker, Stock Tracking, Consignment, Multi-branch)"
+      },
+      {
+        "path": "/products/loge-knowledge-ai",
+        "type": "Dedicated product detail page for Loge Knowledge AI (Enterprise RAG, Vector Knowledge Search, PDF & Document Assistant, Security Governance)"
+      }
+    ]
+  },
+  "bilingual_configuration": {
+    "default_language": "ID (Indonesian)",
+    "toggle_languages": ["ID", "EN"],
+    "implementation": "React state or i18n context controlling dictionaries for all text, headings, badges, product features, and form labels."
+  },
+  "key_components": {
+    "sticky_navbar": {
+      "features": "Glassmorphic background (backdrop-blur-xl bg-white/80 border-b border-blue-100/50), Brand Logo (Molecular icon + ARRAYA red wordmark + PARTNER WAMYS navy tagline), Nav links (Beranda, Tentang, Produk, Portofolio, Layanan, Kontak), Language Toggle pills (ID | EN), Red CTA button ('Hubungi Kami' / 'Contact Us')",
+      "mobile_nav": "Responsive slide-down drawer with clear dark backdrop and touch-friendly links."
+    },
+    "hero_section": {
+      "headline": "Transformasi Digital Terdepan untuk Efisiensi & Pertumbuhan Bisnis Anda",
+      "headline_en": "Empowering Enterprise Growth with World-Class Custom Software & AI",
+      "visuals": "Animated Interactive Molecular Network canvas + 2 floating glass product preview cards (Jewelry Management live stock counter widget & Loge AI vector query response card)",
+      "cta": "Red Primary CTA button ('Konsultasi Gratis' / 'Free Consultation') + Gradient Secondary CTA button ('Jelajahi Produk' / 'Explore Products')"
+    },
+    "stats_counter_strip": {
+      "metrics": [
+        {"value": 150, "suffix": "+", "label_id": "Proyek Terintegrasi", "label_en": "Integrated Projects"},
+        {"value": 99.9, "suffix": "%", "label_id": "Uptime Sistem Enterprise", "label_en": "Enterprise System Uptime"},
+        {"value": 45, "suffix": "+", "label_id": "Klien Industri & Retail", "label_en": "Retail & Industry Clients"},
+        {"value": 12, "suffix": " Thn", "label_id": "Pengalaman Teknologi", "label_en": "Years Tech Expertise"}
+      ]
+    },
+    "about_section": {
+      "title": "Tentang PT Arraya Mitra Informatika",
+      "subtitle": "Mitra teknologi terpercaya yang menghadirkan solusi perangkat lunak berstandar tinggi, aman, dan dapat disesuaikan dengan kebutuhan bisnis Anda.",
+      "value_cards": [
+        {"icon": "ShieldCheck", "title_id": "Keamanan Enterprise", "desc_id": "Standar enkripsi data tingkat tinggi dan proteksi aset informasi perusahaan."},
+        {"icon": "Cpu", "title_id": "Inovasi AI & Automation", "desc_id": "Pemanfaatan kecerdasan buatan terkini untuk efisiensi operasional tanpa batas."},
+        {"icon": "Layers", "title_id": "Arsitektur Scalable", "desc_id": "Solusi modular yang siap berkembang seiring pertumbuhan bisnis skala besar."},
+        {"icon": "Headphones", "title_id": "Dukungan 24/7 Dedicated", "desc_id": "Tim ahli lokal yang selalu siap mengawal stabilitas infrastruktur Anda."}
+      ]
+    },
+    "products_showcase": {
+      "block_1": {
+        "id": "jewelry-management",
+        "name": "Jewelry Store & Factory Management System",
+        "tagline_id": "Solusi Manajemen Toko Emas & Pabrik Perhiasan Terpadu",
+        "features": ["Integrasi Harga Emas Real-time", "Pencatatan Kadar & Berat Presisi", "Manajemen Konsinyasi & Barcode", "Laporan Keuangan & Penjualan Multi-cabang"],
+        "mockup_type": "Tilted Browser Mockup with Dark Sapphire Chrome header and glass stat indicators",
+        "detail_link": "/products/jewelry-management"
+      },
+      "block_2": {
+        "id": "loge-knowledge-ai",
+        "name": "Loge Knowledge AI Assistant",
+        "tagline_id": "Platform Kecerdasan Buatan Berbasis Document RAG & Knowledge Base Enterprise",
+        "features": ["Pencarian Dokumen Kontekstual Lanjutan", "Multi-file Ingestion (PDF, Docx, SQL)", "Keamanan Akses Berbasis Peran (RBAC)", "API Integration untuk System Internal"],
+        "mockup_type": "Clipped Dark Glass Interface Frame with glowing vector embedding visualizers",
+        "detail_link": "/products/loge-knowledge-ai"
+      }
+    },
+    "projects_portfolio": {
+      "description": "Grid of interactive portfolio cards with hover zoom, tags, and clickable modal for in-depth case study view (Challenge, Solution, Impact results).",
+      "categories": ["Retail Enterprise", "AI & Analytics", "Custom ERP", "Financial Tech"]
+    },
+    "services_grid": {
+      "card_count": 6,
+      "services": [
+        {"title_id": "Pengembangan Software Custom", "icon": "Code2", "desc_id": "Aplikasi web dan mobile yang dirancang sesuai alur kerja spesifik bisnis Anda."},
+        {"title_id": "Integrasi Kecerdasan Buatan (AI)", "icon": "BrainCircuit", "desc_id": "Implementasi RAG, Chatbot AI internal, dan analisis data prediktif."},
+        {"title_id": "Sistem ERP & POS Industri", "icon": "Store", "desc_id": "Manajemen inventaris, stok perhiasan, kasir, dan akuntansi terintegrasi."},
+        {"title_id": "Cloud & Infrastructure Solutions", "icon": "CloudServer", "desc_id": "Migrasi cloud, arsitektur microservices, dan manajemen server aman."},
+        {"title_id": "Audit Keamanan & Pen-Testing", "icon": "Lock", "desc_id": "Pengujian celah keamanan dan sertifikasi proteksi data perusahaan."},
+        {"title_id": "Konsultasi IT & Digital Transformation", "icon": "Compass", "desc_id": "Perencanaan arsitektur sistem jangka panjang dan modernisasi teknologi legacy."}
+      ]
+    },
+    "why_arraya": {
+      "points": [
+        "Pendekatan Modular & Tailor-Made tanpa Keterikatan Vendor Rigid",
+        "Pengalaman Mendalam pada Spesifikasi Toko Perhiasan & Pabrik Manufaktur",
+        "Arsitektur Berbasis AI-Ready untuk Kesiapan Masa Depan",
+        "SLA Terjamin dengan Tim Developer & Support Indonesia"
+      ]
+    },
+    "how_we_work": {
+      "step_count": 5,
+      "steps": [
+        {"step": "01", "title": "Discovery & Requirement Analysis"},
+        {"step": "02", "title": "System Architecture & UI/UX Design"},
+        {"step": "03", "title": "Agile Sprint Development"},
+        {"step": "04", "title": "QA, Security Testing & Deployment"},
+        {"step": "05", "title": "24/7 Monitoring & Continuous Support"}
+      ]
+    },
+    "tech_stack_chips": {
+      "categories": ["Frontend", "Backend", "AI & Data", "Database & Cloud"],
+      "technologies": ["React", "Tailwind CSS", "Framer Motion", "FastAPI", "Python", "Node.js", "MongoDB", "PostgreSQL", "LangChain", "OpenAI / Local LLMs", "Docker", "AWS / GCP"]
+    },
+    "contact_form_and_details": {
+      "features": "Form with client-side validation (Name, Email, Phone, Company, Service interest, Message), integration to FastAPI backend /api/contact endpoint, toast feedback via Sonner, Google Map iframe/placeholder styled with custom map pins, clear direct contact info (Email, Phone, Office Address in Jakarta/Indonesia), floating action WhatsApp button with direct message pre-filled link."
+    },
+    "footer": {
+      "background": "Deep Navy #1F3A5F / #0D1B2A",
+      "content": "ARRAYA molecular logo, company summary, quick navigation links, product list links, legal terms, and copyright text."
+    }
+  },
+  "image_urls": {
+    "software_team": "https://images.unsplash.com/photo-1581094794329-c8112a89af12?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NzF8MHwxfHNlYXJjaHwyfHxzb2Z0d2FyZSUyMGRldmVsb3BlcnMlMjBlbnRlcnByaXNlJTIwdGVjaG5vbG9neSUyMHRlYW18ZW58MHx8fHwxNzkxOTAyMDI5fDA&ixlib=rb-4.1.0&q=85",
+    "software_workspace": "https://images.unsplash.com/photo-1632910121591-29e2484c0259?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NzF8MHwxfHNlYXJjaHwzfHxzb2Z0d2FyZSUyMGRldmVsb3BlcnMlMjBlbnRlcnByaXNlJTIwdGVjaG5vbG9neSUyMHRlYW18ZW58MHx8fHwxNzkxOTAyMDI5fDA&ixlib=rb-4.1.0&q=85",
+    "jewelry_store_pos": "https://images.unsplash.com/photo-1622704776938-bed6cd156e04?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxOTB8MHwxfHNlYXJjaHwzfHxqZXdlbHJ5JTIwbWFuYWdlbWVudCUyMHN0b3JlJTIwc29mdHdhcmUlMjB0ZWNobm9sb2d5fGVufDB8fHx8MTc5MTkwMjAyOXww&ixlib=rb-4.1.0&q=85",
+    "jewelry_display": "https://images.unsplash.com/photo-1744369382892-eb5b6a2fdc6f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxOTB8MHwxfHNlYXJjaHw0fHxqZXdlbHJ5JTIwbWFuYWdlbWVudCUyMHN0b3JlJTIwc29mdHdhcmUlMjB0ZWNobm9sb2d5fGVufDB8fHx8MTc5MTkwMjAyOXww&ixlib=rb-4.1.0&q=85",
+    "ai_analytics_dashboard": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NjZ8MHwxfHNlYXJjaHwxfHxhcnRpZmljaWFsJTIwaW50ZWxsaWdlbmNlJTIwZGF0YSUyMGFuYWx5dGljcyUyMGRhc2hib2FyZHxlbnwwfHx8fDE3OTE5MDIwMjl8MA&ixlib=rb-4.1.0&q=85",
+    "ai_data_metrics": "https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NjZ8MHwxfHNlYXJjaHwzfHxhcnRpZmljaWFsJTIwaW50ZWxsaWdlbmNlJTIwZGF0YSUyMGFuYWx5dGljcyUyMGRhc2hib2FyZHxlbnwwfHx8fDE3OTE5MDIwMjl8MA&ixlib=rb-4.1.0&q=85"
+  },
+  "testing_attributes": {
+    "data_testid_rules": "All interactive elements, buttons, links, inputs, language switches, modal controls, product links, and form submit elements MUST have data-testid in kebab-case format.",
+    "examples": [
+      "data-testid=\"nav-logo-link\"",
+      "data-testid=\"language-toggle-id\"",
+      "data-testid=\"language-toggle-en\"",
+      "data-testid=\"hero-contact-cta-button\"",
+      "data-testid=\"hero-explore-products-button\"",
+      "data-testid=\"product-card-jewelry-link\"",
+      "data-testid=\"product-card-loge-ai-link\"",
+      "data-testid=\"portfolio-modal-open-button-1\"",
+      "data-testid=\"portfolio-modal-close-button\"",
+      "data-testid=\"contact-form-name-input\"",
+      "data-testid=\"contact-form-email-input\"",
+      "data-testid=\"contact-form-submit-button\"",
+      "data-testid=\"whatsapp-floating-button\""
+    ]
+  },
+  "instructions_to_main_agent": [
+    "Follow this design guideline strictly. Build a stunning, top 1% corporate website for PT Arraya Mitra Informatika.",
+    "Install and integrate `@studio-freight/lenis` or `lenis` for momentum smooth scrolling.",
+    "Use Lucide-react icons for clear, crisp iconography.",
+    "Ensure complete bilingual support (ID/EN) with instant state switching.",
+    "Ensure all product sub-routes (/products/jewelry-management and /products/loge-knowledge-ai) are fully functional with back navigation, deep feature breakdowns, ROI metrics, and contact CTAs.",
+    "Use Sonner for toast alerts upon contact form submission.",
+    "Maintain high APCA contrast ratios. Red button text must be white (#FFFFFF), navbar text on white header must be navy (#1F3A5F).",
+    "Include data-testid on every clickable or input component."
+  ]
+}

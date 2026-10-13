@@ -1,0 +1,20 @@
+# PT Arraya Mitra Informatika (ARRAYA)
+
+> Perusahaan software dan solusi IT asal Indonesia. ARRAYA membangun sistem bisnis, platform AI, dan infrastruktur data untuk perusahaan dan pemerintah di Indonesia.
+
+## Produk
+- Jewelry Management: sistem manajemen toko emas & perhiasan end-to-end (POS/kasir, master stock puluhan ribu SKU, buyback, reparasi, DP, membership, integrasi WhatsApp, dashboard).
+- Loge Knowledge AI: pencarian pengetahuan enterprise privat dengan sitasi sumber, konektor (Confluence, SharePoint, Google Drive, Jira, Slack, GitHub, Notion), AI agents, MCP actions.
+
+## Layanan
+- Electronic Signature (Tanda Tangan Elektronik)
+- Microservice Management
+- Data Warehouse System
+- Custom Software Development (web & mobile)
+- AI & Knowledge Solutions (RAG, enterprise search, AI agents)
+- System Integration & Consulting
+
+## Halaman
+- / : Beranda — profil perusahaan, produk, proyek, layanan, kontak
+- /products/jewelry-management : Detail produk Jewelry Management
+- /products/loge-knowledge-ai : Detail produk Loge Knowledge AI

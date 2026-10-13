@@ -1,0 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --background: 0 0% 100%;
+        --foreground: 222 47% 11%;
+        --card: 0 0% 100%;
+        --card-foreground: 222 47% 11%;
+        --popover: 0 0% 100%;
+        --popover-foreground: 222 47% 11%;
+        --primary: 207 82% 51%;
+        --primary-foreground: 0 0% 100%;
+        --secondary: 210 100% 97%;
+        --secondary-foreground: 215 50% 25%;
+        --muted: 210 40% 96.1%;
+        --muted-foreground: 215 16% 42%;
+        --accent: 210 100% 97%;
+        --accent-foreground: 215 50% 25%;
+        --destructive: 0 65% 51%;
+        --destructive-foreground: 0 0% 100%;
+        --border: 214 32% 91%;
+        --input: 214 32% 91%;
+        --ring: 207 82% 51%;
+        --chart-1: 207 82% 51%;
+        --chart-2: 199 92% 64%;
+        --chart-3: 215 50% 25%;
+        --chart-4: 0 65% 51%;
+        --chart-5: 222 47% 11%;
+        --radius: 0.75rem;
+    }
+}
+
+@layer base {
+    * {
+        @apply border-border;
+    }
+    html {
+        scroll-behavior: auto;
+    }
+    body {
+        @apply bg-white text-brand-slate font-body antialiased;
+    }
+    ::selection {
+        background: rgba(30, 136, 229, 0.2);
+        color: #1F3A5F;
+    }
+}
+
+@layer utilities {
+    .text-brand-gradient {
+        background: linear-gradient(135deg, #1E88E5 0%, #4FC3F7 100%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .bg-brand-gradient {
+        background: linear-gradient(135deg, #1E88E5 0%, #4FC3F7 100%);
+    }
+    .molecule-pattern {
+        background-image: url("data:image/svg+xml,%3Csvg width='120' height='120' viewBox='0 0 120 120' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' stroke='%231E88E5' stroke-opacity='0.12'%3E%3Cpath d='M20 30 L60 20 L95 45 L80 90 L35 85 Z'/%3E%3Cpath d='M60 20 L80 90 M20 30 L80 90 M95 45 L35 85'/%3E%3C/g%3E%3Cg fill='%231E88E5' fill-opacity='0.15'%3E%3Ccircle cx='20' cy='30' r='3'/%3E%3Ccircle cx='60' cy='20' r='4'/%3E%3Ccircle cx='95' cy='45' r='3'/%3E%3Ccircle cx='80' cy='90' r='4'/%3E%3Ccircle cx='35' cy='85' r='3'/%3E%3C/g%3E%3C/svg%3E");
+    }
+    .molecule-pattern-light {
+        background-image: url("data:image/svg+xml,%3Csvg width='120' height='120' viewBox='0 0 120 120' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' stroke='%23FFFFFF' stroke-opacity='0.14'%3E%3Cpath d='M20 30 L60 20 L95 45 L80 90 L35 85 Z'/%3E%3Cpath d='M60 20 L80 90 M20 30 L80 90 M95 45 L35 85'/%3E%3C/g%3E%3Cg fill='%23FFFFFF' fill-opacity='0.2'%3E%3Ccircle cx='20' cy='30' r='3'/%3E%3Ccircle cx='60' cy='20' r='4'/%3E%3Ccircle cx='95' cy='45' r='3'/%3E%3Ccircle cx='80' cy='90' r='4'/%3E%3Ccircle cx='35' cy='85' r='3'/%3E%3C/g%3E%3C/svg%3E");
+    }
+    .glass-card {
+        background: rgba(255, 255, 255, 0.78);
+        backdrop-filter: blur(16px);
+        -webkit-backdrop-filter: blur(16px);
+        border: 1px solid rgba(30, 136, 229, 0.18);
+        box-shadow: 0 18px 40px rgba(31, 58, 95, 0.12);
+    }
+    .glass-card-dark {
+        background: rgba(13, 27, 42, 0.72);
+        backdrop-filter: blur(16px);
+        -webkit-backdrop-filter: blur(16px);
+        border: 1px solid rgba(79, 195, 247, 0.25);
+        box-shadow: 0 18px 40px rgba(13, 27, 42, 0.35);
+    }
+}
+
+@layer base {
+    [data-debug-wrapper="true"] {
+        display: contents !important;
+    }
+
+    [data-debug-wrapper="true"] > * {
+        margin-left: inherit;
+        margin-right: inherit;
+        margin-top: inherit;
+        margin-bottom: inherit;
+        padding-left: inherit;
+        padding-right: inherit;
+        padding-top: inherit;
+        padding-bottom: inherit;
+        column-gap: inherit;
+        row-gap: inherit;
+        gap: inherit;
+        border-left-width: inherit;
+        border-right-width: inherit;
+        border-top-width: inherit;
+        border-bottom-width: inherit;
+        border-left-style: inherit;
+        border-right-style: inherit;
+        border-bottom-style: inherit;
+        border-left-color: inherit;
+        border-right-color: inherit;
+        border-top-color: inherit;
+        border-bottom-color: inherit;
+    }
+}

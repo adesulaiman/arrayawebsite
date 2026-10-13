@@ -1,0 +1,264 @@
+{
+  "meta": {
+    "homeTitle": "ARRAYA — Software & IT Solutions for Business and Government",
+    "homeDesc": "PT Arraya Mitra Informatika (ARRAYA) — an Indonesian software & IT solutions company. Business systems, AI platforms, and data infrastructure for enterprises and government.",
+    "jewelryTitle": "Jewelry Management — Gold & Jewelry Store System | ARRAYA",
+    "jewelryDesc": "End-to-end gold & jewelry store management: PIN-login POS, master stock for tens of thousands of SKUs, buyback, repairs, down payments, membership, and full dashboards.",
+    "logeTitle": "Loge Knowledge AI — Enterprise Knowledge Search | ARRAYA",
+    "logeDesc": "Search your team's entire private knowledge. Every answer shows its sources. Connectors for Confluence, SharePoint, Google Drive, Jira, Slack, and more."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "products": "Products",
+    "projects": "Projects",
+    "services": "Services",
+    "contact": "Contact",
+    "cta": "Contact Us",
+    "openMenu": "Open navigation menu",
+    "closeMenu": "Close navigation menu"
+  },
+  "hero": {
+    "badge": "Software & IT Solutions — Indonesia",
+    "line1": "Digital Solutions That",
+    "line2": "Connect Business",
+    "line3": "and Technology",
+    "sub": "Arraya Mitra Informatika builds business systems, AI platforms, and data infrastructure for enterprises and government institutions across Indonesia.",
+    "ctaPrimary": "See Products",
+    "ctaSecondary": "Contact Us",
+    "cards": [
+      { "title": "Jewelry Management", "desc": "Real-time gold POS & stock", "stat": "36K+ active SKUs" },
+      { "title": "Loge Knowledge AI", "desc": "Answers with source citations", "stat": "Enterprise RAG" },
+      { "title": "Data Warehouse", "desc": "Centralized ETL & analytics", "stat": "BI-ready" }
+    ]
+  },
+  "stats": {
+    "items": [
+      { "value": 25, "suffix": "+", "label": "Custom Software Solutions" },
+      { "value": 2, "suffix": "", "label": "Flagship Products" },
+      { "value": 15, "suffix": "+", "label": "Government & Commerce Clients" },
+      { "value": 100, "suffix": "%", "label": "Enterprise-grade Architecture" }
+    ]
+  },
+  "about": {
+    "badge": "About Us",
+    "title": "A Technology Partner That Grows With Your Business",
+    "story1": "PT Arraya Mitra Informatika (ARRAYA) is a software and IT solutions company founded in [INSERT FOUNDING YEAR], based in [INSERT CITY]. We help enterprises and government institutions design, build, and maintain the digital systems at the core of their operations.",
+    "story2": "From jewelry store management systems processing tens of thousands of SKUs to AI platforms that navigate a company's internal knowledge, every solution we build follows enterprise standards: secure, scalable, and maintainable.",
+    "visionTitle": "Vision",
+    "vision": "To become the most trusted digital transformation partner for enterprises and government in Indonesia.",
+    "missionTitle": "Mission",
+    "mission": "To deliver secure, scalable, and impactful technology solutions — from consulting and development to long-term maintenance.",
+    "valuesTitle": "Our Core Values",
+    "values": [
+      { "icon": "shield", "title": "Integrity", "desc": "Transparent and honest in every commitment, estimate, and report." },
+      { "icon": "lightbulb", "title": "Innovation", "desc": "Pragmatically adopting the latest technology — AI, microservices, and cloud." },
+      { "icon": "badge", "title": "Reliability", "desc": "Stable, tested, production-ready systems built to enterprise standards." },
+      { "icon": "handshake", "title": "Partnership", "desc": "Growing together with clients through responsive long-term support." }
+    ],
+    "imageAlt": "ARRAYA engineering team at work"
+  },
+  "products": {
+    "badge": "Flagship Products",
+    "title": "Two Platforms We Stand Behind",
+    "sub": "Products we build, maintain, and continuously evolve together with their users.",
+    "detail": "View Details",
+    "items": [
+      {
+        "id": "jewelry",
+        "name": "Jewelry Management",
+        "category": "Gold & Jewelry Retail",
+        "tagline": "End-to-end gold & jewelry store management system.",
+        "desc": "From the cashier counter to annual reports — one system that understands how gold stores work: grams, purity, buyback, and repairs.",
+        "features": [
+          "POS / cashier with PIN login",
+          "Master stock for tens of thousands of SKUs",
+          "Daily cash session & closing",
+          "Buyback (gram & value tracking)",
+          "Repair / service transactions",
+          "Down-payment (DP) tracking",
+          "Customer & membership management",
+          "WhatsApp integration",
+          "Receipt printer support",
+          "Daily, monthly & yearly dashboards",
+          "Role-based access control"
+        ],
+        "imageAlt": "Jewelry Management back-office dashboard"
+      },
+      {
+        "id": "loge",
+        "name": "Loge Knowledge AI",
+        "category": "Enterprise AI",
+        "tagline": "Search your team's entire private knowledge. Every answer shows its sources.",
+        "desc": "An enterprise knowledge search platform that connects all your team's documents and applications into one trustworthy AI assistant.",
+        "features": [
+          "Private knowledge search with source citations",
+          "Connectors: Confluence, SharePoint, Google Drive, Jira, Slack",
+          "Connectors: Salesforce, HubSpot, GitHub, Notion, web & file upload",
+          "Multiple language model support (multi-LLM)",
+          "AI agents",
+          "MCP actions",
+          "OpenAPI actions",
+          "Document sets",
+          "Code interpreter",
+          "Voice",
+          "Image generation",
+          "Admin panel"
+        ],
+        "imageAlt": "Loge Knowledge AI interface"
+      }
+    ]
+  },
+  "projects": {
+    "badge": "Portfolio",
+    "title": "Projects We Have Delivered",
+    "sub": "Selected work for commercial and government sectors.",
+    "caseStudy": "Case Study",
+    "modal": { "challenge": "Challenge", "solution": "Solution", "result": "Result", "close": "Close" },
+    "items": [
+      {
+        "id": "kusuma",
+        "title": "Kusuma E-Commerce",
+        "category": "E-Commerce / Beauty",
+        "desc": "A full online store for the Kusuma Kosmetika beauty brand — bilingual storefront (ID/EN), IDR pricing, promo features, and a store locator.",
+        "chips": ["Bilingual Storefront", "IDR Pricing", "Promo Engine", "Store Locator"],
+        "challenge": "[PLACEHOLDER] Describe the challenge the client faced before the project — e.g. manual sales processes or limited digital channels.",
+        "solution": "[PLACEHOLDER] Describe the solution ARRAYA built — architecture, key features, and implementation approach.",
+        "result": "[PLACEHOLDER] Describe the measurable results — e.g. online sales growth or operational efficiency.",
+        "imageAlt": "Kusuma Kosmetika storefront"
+      },
+      {
+        "id": "sampang",
+        "title": "Sampang Governance System",
+        "category": "Government",
+        "desc": "A government management system for Sampang Regency — public administration workflows, transparency, and digital public services.",
+        "chips": ["Government Workflow", "Digital Service", "Transparency", "RBAC"],
+        "challenge": "[PLACEHOLDER] Describe the challenge the institution faced before the system was built.",
+        "solution": "[PLACEHOLDER] Describe the solution ARRAYA built — modules, integrations, and security approach.",
+        "result": "[PLACEHOLDER] Describe the measurable results — e.g. faster public services or improved transparency.",
+        "imageAlt": "Sampang Governance System illustration"
+      }
+    ]
+  },
+  "services": {
+    "badge": "Services",
+    "title": "Our Capabilities",
+    "sub": "Six core areas of expertise to support your digital transformation.",
+    "items": [
+      { "icon": "pen", "title": "Electronic Signature", "desc": "Secure digital document signing — complete audit trail and document verification." },
+      { "icon": "network", "title": "Microservice Management", "desc": "Architecture design, API gateway, service orchestration, and unified monitoring." },
+      { "icon": "database", "title": "Data Warehouse System", "desc": "ETL pipelines, centralized analytics, and BI-ready data models." },
+      { "icon": "code", "title": "Custom Software Development", "desc": "Web and mobile applications built around your business processes." },
+      { "icon": "brain", "title": "AI & Knowledge Solutions", "desc": "RAG, enterprise search, and AI agents for internal knowledge." },
+      { "icon": "plug", "title": "System Integration & Consulting", "desc": "Connecting legacy systems, WhatsApp, payments, and third-party APIs." }
+    ]
+  },
+  "why": {
+    "badge": "Why ARRAYA",
+    "title": "Why Companies Choose Us",
+    "sub": "Not just a vendor — a long-term technology partner.",
+    "points": [
+      { "icon": "mappin", "title": "Local Expertise", "desc": "An Indonesian team with full Bahasa Indonesia support." },
+      { "icon": "layers", "title": "Scalable Architecture", "desc": "Microservices that grow alongside your business." },
+      { "icon": "shield", "title": "Security-First", "desc": "Security designed from the very first line of code." },
+      { "icon": "route", "title": "End-to-End Delivery", "desc": "Consulting, building, and maintenance with a single partner." },
+      { "icon": "badge", "title": "Proven References", "desc": "Trusted by government and commercial clients." },
+      { "icon": "headphones", "title": "Responsive Support", "desc": "A support team ready when you need it." }
+    ]
+  },
+  "process": {
+    "badge": "How We Work",
+    "title": "A Clear Process, Measurable Results",
+    "sub": "Five stages we go through with every client.",
+    "steps": [
+      { "title": "Discovery", "desc": "Understanding requirements, business processes, and target outcomes." },
+      { "title": "Design", "desc": "System architecture and measurable UI/UX design." },
+      { "title": "Development", "desc": "Agile development with regular demos." },
+      { "title": "Deployment", "desc": "Safe releases with thorough testing." },
+      { "title": "Support & Evolution", "desc": "Monitoring, maintenance, and continuous improvement." }
+    ]
+  },
+  "tech": {
+    "badge": "Technology",
+    "title": "The Stack We Master",
+    "sub": "Modern, battle-tested technology for enterprise workloads.",
+    "items": ["Next.js", "React", "Flutter", "Node.js", "Python", "PostgreSQL", "Docker", "Kubernetes", "REST / OpenAPI", "MCP"]
+  },
+  "ctaBand": {
+    "title": "Ready to digitalize your business?",
+    "sub": "Tell us what you need — our team will help design the right solution.",
+    "button": "Schedule a Consultation"
+  },
+  "contact": {
+    "badge": "Contact",
+    "title": "Let's Talk About Your Project",
+    "sub": "Fill in the form or reach out directly — we respond quickly.",
+    "form": {
+      "name": "Full Name",
+      "email": "Email",
+      "phone": "Phone / WhatsApp",
+      "company": "Company",
+      "message": "Message",
+      "namePh": "Your name",
+      "emailPh": "you@company.co.id",
+      "phonePh": "08xx-xxxx-xxxx",
+      "companyPh": "Company name (optional)",
+      "messagePh": "Tell us about your needs or project...",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "success": "Message sent! We will get back to you shortly.",
+      "error": "Failed to send the message. Please try again.",
+      "required": "This field is required",
+      "invalidEmail": "Invalid email format",
+      "minMessage": "Message must be at least 10 characters"
+    },
+    "info": {
+      "title": "Company Information",
+      "addressLabel": "Address",
+      "address": "[INSERT OFFICE ADDRESS]",
+      "emailLabel": "Email",
+      "email": "[INSERT COMPANY EMAIL]",
+      "phoneLabel": "Phone",
+      "phone": "[INSERT PHONE NUMBER]",
+      "waButton": "Chat via WhatsApp",
+      "waLink": "https://wa.me/6200000000000"
+    },
+    "map": { "title": "Our Location", "note": "[PLACEHOLDER] Embed Google Maps here" }
+  },
+  "footer": {
+    "desc": "An Indonesian software & IT solutions company — building business systems, AI platforms, and data infrastructure.",
+    "navTitle": "Navigation",
+    "productsTitle": "Products",
+    "contactTitle": "Contact",
+    "rights": "© 2026 PT Arraya Mitra Informatika. All rights reserved.",
+    "logoAlt": "ARRAYA logo"
+  },
+  "productPages": {
+    "back": "Back to Home",
+    "featuresTitle": "Full Feature List",
+    "highlightsTitle": "Product at a Glance",
+    "ctaTitle": "Interested in this product?",
+    "ctaSub": "Schedule a demo with our team and see it in action.",
+    "ctaButton": "Discuss Your Needs",
+    "jewelry": {
+      "category": "Flagship Product — Gold & Jewelry Retail",
+      "heroNote": "Jewelry Management back-office dashboard",
+      "desc": "Jewelry Management is an end-to-end system for gold and jewelry stores: from PIN-login cashier transactions and master stock at tens of thousands of SKUs, to daily cash sessions, buyback, repairs, and daily, monthly, and yearly reports. Built specifically for how the gold industry works — grams, purity, and value are always tracked.",
+      "highlights": [
+        { "value": "36K+", "label": "SKUs manageable" },
+        { "value": "11+", "label": "Integrated modules" },
+        { "value": "Real-time", "label": "Operational dashboard" }
+      ]
+    },
+    "loge": {
+      "category": "Flagship Product — Enterprise AI",
+      "heroNote": "Loge Knowledge AI interface",
+      "desc": "Loge Knowledge AI unifies your company's private knowledge — documents, wikis, tickets, even code — into a single AI assistant. Every answer always shows its sources, so your team can trust and verify every piece of information.",
+      "highlights": [
+        { "value": "12+", "label": "Data source connectors" },
+        { "value": "Multi-LLM", "label": "Language model support" },
+        { "value": "100%", "label": "Answers with citations" }
+      ]
+    }
+  }
+}
